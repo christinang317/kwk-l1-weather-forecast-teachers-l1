@@ -22,7 +22,7 @@ end
 def weather_report(weather)
 	weather.each do |value|
 		puts "The weather in #{value} is #{value}. The temperature is #{value} "
-	end 
+	end
 end 
 #4. Write a method that takes in the weather hash as an argument.
 # You'll want to use the each method to iterate over the hash and print out
